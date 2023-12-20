@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNDEWHS</title>
+    <style>
+        #profile-pic {
+            width: 111px;
+            height: 111px;
+            border-radius: 50%;
+            margin-top: 63px;
+            margin-left: 61px;
+        }
+
+        #id-card-frontSide-container {
+            background-image: url('bndewhs-id-card-front-side.svg');
+            background-repeat: no-repeat;
+            width: 179.28pt;
+            height: 268.56pt;
+            background-size: cover;
+            padding: 0;
+        }
+
+        #id-card-frontSide-content {
+            color: white;
+            padding-top: 2px;
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 11px;
+        }
+
+        .student-info {
+            color: white;
+            padding-top: 0px;
+            padding-left: 33px;
+            font-size: 11px;
+            font-weight: bold;
+            padding-bottom: 0;
+            margin-top: 0px;
+            margin-bottom: 2px;
+        }
+
+        #qr-code {
+            width: 45px;
+            height: 43px;
+            margin-left: 32.8pt;
+            margin-top: 12.1pt;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id-card-frontSide-container">
+        <img id="profile-pic" src="profile-image.jpeg" alt="profile-image" />
+        <h1 id="id-card-frontSide-content">Mehedi Hassan Shovo</h1>
+        <h6 class="student-info">Student ID<span style="margin-left: 8.2pt;">:</span></h6>
+        <h6 class="student-info">Class Roll<span style="margin-left: 11.3pt;">:</span></h6>
+        <h6 class="student-info">Class <span style="margin-left: 26pt;">:</span></h6>
+        <h6 class="student-info">Section<span style="margin-left:21pt;">:</span></h6>
+        <img id="qr-code" src="QRcode.jpg" alt="qr-code" />
+    </div>
+</body>
+
+</html>
